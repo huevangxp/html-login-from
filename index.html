@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ລະບົບລົງທະບຽນ</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&display=swap');
+
+    * {
+      font-family: 'Noto Sans Lao', sans-serif;
+    }
+  </style> -->
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <button id="loginTab" class="active">ເຂົ້າສຸ່ລະບົບ</button>
+      <button id="registerTab">ລົງທະບຽນ</button>
+    </div>
+    <!-- Login Form -->
+    <form id="loginForm" class="form active">
+      <input type="email" placeholder="ອີເມລ" required />
+      <input type="password" placeholder="ລະຫັດຜ່ານ" required />
+      <button type="submit" class="btn"><i class="fa fa-sign-in-alt"></i> ເຂົ້າສຸ່ລະບົບ</button>
+      <p class="or">ຫຼື ເຂົ້າສຸ່ລະບົບ</p>
+      <div class="socials">
+        <button class="social">G</button>
+        <button class="social">f</button>
+        <button class="social">t</button>
+      </div>
+    </form>
+    <!-- Register Form -->
+    <form id="registerForm" class="form">
+      <input type="text" placeholder="ຊື້ ແລະ ນາມສະກຸນ" required />
+      <input type="email" placeholder="ອີເມລ" required />
+      <input type="password" placeholder="ລະຫັດຜ່ານ" required />
+      <input type="password" placeholder="ຢືນຢັນລະຫັດຜ່ານ" required />
+      <button type="submit" class="btn"><i class="fa fa-user-plus"></i> ອົງທະບຽນ</button>
+      <p class="or">ຫຼື ລົງທະບຽນດ້ອຍ</p>
+      <div class="socials">
+        <button class="social">G</button>
+        <button class="social">f</button>
+        <button class="social">t</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+ 
+
+ 
